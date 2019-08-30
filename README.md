@@ -19,15 +19,23 @@ spring.data.mongodb.host=localhost
 spring.data.mongodb.port=27017
 
 
-## 4- Examples
+## 4- Start the application
 
-#### create - POST: http://localhost:8082/api/v1/products
+#### create: http://localhost:8082/api/v1/products
 
 ![Screenshot](prtsc/create-Postman.png)
 
 
-#### findAll - GET: http://localhost:8082/api/v1/products
+#### findAll: http://localhost:8082/api/v1/products
 
 ![Screenshot](prtsc/findAll-Postman.png)
+
+#### findById: http://localhost:8082/api/v1/products/2
+
+![Screenshot](prtsc/findById-Postman.png)
+
+#### update: http://localhost:8082/api/v1/products/2
+
+![Screenshot](prtsc/update-Postman.png)
 
 
