@@ -38,4 +38,23 @@ spring.data.mongodb.port=27017
 
 ![Screenshot](prtsc/update-Postman.png)
 
+#### delete: http://localhost:8082/api/v1/products/3
+
+![Screenshot](prtsc/date-Postman.png)
+
+#### MongoDB
+
+![Screenshot](prtsc/mongoDB1.png)
+
+![Screenshot](prtsc/mongoDB2.png)
+
+
+
+## 5- Check non-blocking response in chrome browser directly. 
+
+#### stream: http://localhost:8082/api/v1/products/stream
+
+![Screenshot](prtsc/Chrome1.png)
+
+![Screenshot](prtsc/Chrome2.png)
 
