@@ -1,6 +1,6 @@
 # Example Reactive programming with Spring Boot
 
-## 1.- Create container of Reactive MongoDB
+## 1.- Create docker container of Reactive MongoDB
 
 docker run  -p 27017:27017 bitnami/mongodb:latest
 
@@ -21,8 +21,13 @@ spring.data.mongodb.port=27017
 
 ## 4- Examples
 
-#### Create: http://localhost:8082/api/v1/products
+#### create - POST: http://localhost:8082/api/v1/products
 
 ![Screenshot](prtsc/create-Postman.png)
+
+
+#### findAll - GET: http://localhost:8082/api/v1/products
+
+![Screenshot](prtsc/findAll-Postman.png)
 
 
