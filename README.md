@@ -23,5 +23,6 @@ spring.data.mongodb.port=27017
 
 #### Create: http://localhost:8082/api/v1/products
 
+![Screenshot](prtsc/create-Postman.png)
 
 
